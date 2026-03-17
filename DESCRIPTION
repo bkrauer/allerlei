@@ -1,16 +1,39 @@
 Package: allerlei
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Personal Collection of Utility Functions
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Beat", "Krauer",
+      email = "beat.krauer@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: A personal collection of helper functions for data I/O (local and
+    AWS S3), financial and insurance metrics, agricultural and geospatial
+    analysis, data visualisation, and general utilities.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports:
+    data.table,
+    dplyr,
+    ggplot2,
+    ggtext,
+    gt,
+    grDevices,
+    leaflet,
+    lubridate,
+    magrittr,
+    openxlsx,
+    scales,
+    sf,
+    stats,
+    stringr,
+    tibble,
+    tidyr,
+    vroom
+Suggests:
+    paws.storage
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
